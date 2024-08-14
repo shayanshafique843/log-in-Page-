@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(123, 3, 3); */
+    background-image: linear-gradient(to right, rgb(95, 5, 5) , rgb(111, 111, 3));
+    
+    
+}
+.main-cover{
+    
+    background-color: white;
+    width: 40%;
+    height: 320px;
+    border-radius: 5px;
+}
+.main-heading{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 3, 3);
+    color: white;
+    font-size: 1.5rem;
+    height: 40px;
+}
+.wth{
+    width: 230px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.email-icon{
+    background-color: rgb(123, 3, 3);
+    color: white;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.password{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 4px;
+
+}
+.password-icon{
+    background-color: rgb(123, 3, 3);
+    color: white;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+a,.forget{
+    text-decoration: none;
+  }
+.forget{
+    color: rgb(123, 3, 3);
+        margin-top: 17px;
+    font-size: 20px;
+   
+}
+.forget:hover{
+    color: black;    
+}
+.other-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+
+    align-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 259px;
+    height: 39px;
+    font-size: 17px;
+    background-color: rgb(123, 3, 3);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+
+    
+}
+.mbr{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.mbr>a{
+    color: rgb(123, 3, 3);
+}
